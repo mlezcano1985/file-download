@@ -1,0 +1,25 @@
+{
+  "name": "file-download",
+  "version": "1.0.0",
+  "description": "An easy way to download a file from the web browser",
+  "main": "file-download.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlezcano1985/file-download.git"
+  },
+  "keywords": [
+    "base64",
+    "download",
+    "http-request",
+    "blob"
+  ],
+  "author": "mlezcano1985@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlezcano1985/file-download/issues"
+  },
+  "homepage": "https://github.com/mlezcano1985/file-download#readme"
+}
