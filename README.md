@@ -1,5 +1,5 @@
 # file-download
-An easy way to download a file from the web browser using an ajax request
+An easy way to download a file from the web browser
 
 # How to use?
 You can see the file **sample.html** with an very easy example.
