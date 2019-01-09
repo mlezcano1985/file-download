@@ -1,9 +1,9 @@
-# file-download-browser
+# file-save-browser
 
 An easy way to download a file from the web browser
 
 # Install
-`npm install file-download-browser`
+`npm install file-save-browser`
 
 # How to use?
 
