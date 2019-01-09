@@ -1,5 +1,5 @@
 {
-  "name": "@mlezcano1985/file-download",
+  "name": "file-download-browser",
   "version": "1.0.0",
   "description": "An easy way to download a file from the web browser",
   "main": "file-download.js",
