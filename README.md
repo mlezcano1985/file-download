@@ -3,7 +3,7 @@
 An easy way to download a file from the web browser
 
 # Install
-`$ npm install file-download`
+`npm install file-download`
 
 # How to use?
 
