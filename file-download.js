@@ -6,14 +6,14 @@
 
 'use strict';
 
-(window => {
+(() => {
   /**
    * @param { String } _base64 Base64 file content
    * @param { String } _contentType file content type
    * @param { String } _name file name with extension
    * @returns Promise
    */
-  window.FileDownload = (_base64, _contentType, _name) => {
+  const FileDownload = (_base64, _contentType, _name) => {
     return new Promise((resolve, reject) => {
       var url = `data:${_contentType};base64,${_base64}`;
       fetch(url)
@@ -40,4 +40,18 @@
     link.click();
     document.body.removeChild(link);
   };
+  
+  if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+        module.exports = FileDownload;
+    }
+    else {
+        if (typeof define === 'function' && define.amd) {
+          define([], function() {
+            return FileDownload;
+          });
+        }
+        else {
+          window.FileDownload = FileDownload;
+        }
+    }
 })(window);
